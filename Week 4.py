@@ -60,4 +60,9 @@ if "y" in name:
 else:
     print("the letter why is not in name")
 
-    
+def littlelamb():
+    print("mary had a little""2")
+    print("it was white as snow")
+    print("everywhere""3")
+    print("mary went")
+
