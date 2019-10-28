@@ -66,3 +66,34 @@ def littlelamb():
     print("everywhere""3")
     print("mary went")
 
+#  Your Task:
+#  Modify the simulation to plot points in the entire circle.  You will have to
+#    adjust the calculated value of pi accordingly.
+
+# String Methods to investigate:
+# Method        Use Example         Explanation
+#1 center        aStr.center(w)-
+#2 ljust         aStr.ljust(w)
+#3 rjust         aStr.rjust(w)
+#4 upper         aStr.upper()
+#5 lower         aStr.lower()
+#6 index         aStr.index(item)
+#7 rindex        aStr.rindex(item)
+#8 find          aStr.find(item)
+#9 rfind         aStr.rfind(item)
+#10 replace       aStr.replace(old, new)
+
+# Be sure to include multiple examples of all of them in use
+
+#Character Functions
+
+print(ord('B'))
+
+print(chr(104))
+
+print(chr(97+13))
+
+print(str(12548))
+
+
+
