@@ -72,7 +72,7 @@ def littlelamb():
 
 # String Methods to investigate:
 # Method        Use Example         Explanation
-#1 center        aStr.center(w)-
+#1 center        aStr.center(w)-aStr=Programiz
 #2 ljust         aStr.ljust(w)
 #3 rjust         aStr.rjust(w)
 #4 upper         aStr.upper()
@@ -87,13 +87,22 @@ def littlelamb():
 
 #Character Functions
 
-print(ord('B'))
+print(ord('5'))
 
 print(chr(104))
 
 print(chr(97+13))
 
 print(str(12548))
+
+def letterToIndex(letter):
+    from string import ascii_lowercase
+    alphabet = ascii_lowercase + ''
+    idx = alphabet.find(letter)
+    if idx == -1:           #not found
+        print("error;" , letter, "is not in the alphabet")
+    return idx
+
 
 
 
