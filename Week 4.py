@@ -93,7 +93,6 @@ def littlelamb():
 print(str.center(4))
 
 str = "kush"
-print(str.1just(8))
 
 #Character Function
 
@@ -129,21 +128,22 @@ print(chr(98-14))
 print(str(12564))
 
 #Testing Functions From Mapper.py
-from Mapper import *
+from mapper import *
 print(letterToIndex('a'))
 
-from Mapper import *
+from mapper import *
 print(letterToIndex('A'))
 
-from Mapper import *
+from mapper import *
 print(indexToLetter(10))
+
+
 
 from crypto import *
 
-# Hehehe, bad song time.
-print(scramble2Encrypt("BABY YOU KNOW THAT I MISS YOU I JUST WANT TO KISS YOU"))
+print(scramble2Encrypt("Poker Face...Pp.pp.p..poker face"))
 
-
+print(scramble2Decrypt()
 
 
 
@@ -159,11 +159,11 @@ print(scramble2Encrypt("BABY YOU KNOW THAT I MISS YOU I JUST WANT TO KISS YOU"))
 
 #Character Functions
 
-print(ord('5'))
+print(ord('5'));
 
-print(chr(104))
+print(chr(104));
 
-print(chr(97+13))
+print(chr(97+13));
 
 print(str(12548))
 
