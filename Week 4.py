@@ -72,18 +72,90 @@ def littlelamb():
 
 # String Methods to investigate:
 # Method        Use Example         Explanation
-#1 center        aStr.center(w)-aStr=Programiz
-#2 ljust         aStr.ljust(w)
-#3 rjust         aStr.rjust(w)
-#4 upper         aStr.upper()
-#5 lower         aStr.lower()
-#6 index         aStr.index(item)
-#7 rindex        aStr.rindex(item)
-#8 find          aStr.find(item)
-#9 rfind         aStr.rfind(item)
-#10 replace       aStr.replace(old, new)
+#1 center        aStr.center(w)-center the string within specified width  with optionalfill characters
+#2 ljust         aStr.ljust(w)-left justify the string in the provided width with optiona fill characters
+#3 rjust         aStr.rjust(w)-right justifies the string in the provided width
+#4 upper         aStr.upper()-returns uppercased strings
+#5 lower         aStr.lower()-returns lowercase strings
+#6 index         aStr.index(item)-returns the substring index
+#7 rindex        aStr.rindex(item)-return substrings highest index
+#8 find          aStr.find(item)-returns substrings first occuring index
+#9 rfind         aStr.rfind(item)-returns subsrtings highest index
+#10 replace       aStr.replace(old, new)- Replaces substring
 
 # Be sure to include multiple examples of all of them in use
+
+#1 for i in range(hen(chicken)
+    str="Orange Chicken"
+    firstChar = str[0]
+    print(str.center(i))
+
+print(str.center(4))
+
+str = "kush"
+print(str.1just(8))
+
+#Character Function
+
+print(ord('8'))
+print(chr(98-14))
+
+
+str = "pizza"
+print(str.rjust(4))
+
+print(str.rjust(8))
+
+str = "ree"
+print(str.upper())
+
+print(str.upper())
+
+str = "BLAH"
+print(str.lower())
+
+print(str.lower())
+
+str = "lkagh"
+print(str.index(a))
+
+print(str.index(9))
+
+#Character Functions
+
+print(ord('B'))
+print(chr(98-14))
+
+print(str(12564))
+
+#Testing Functions From Mapper.py
+from Mapper import *
+print(letterToIndex('a'))
+
+from Mapper import *
+print(letterToIndex('A'))
+
+from Mapper import *
+print(indexToLetter(10))
+
+from crypto import *
+
+# Hehehe, bad song time.
+print(scramble2Encrypt("BABY YOU KNOW THAT I MISS YOU I JUST WANT TO KISS YOU"))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #Character Functions
 
@@ -95,13 +167,7 @@ print(chr(97+13))
 
 print(str(12548))
 
-def letterToIndex(letter):
-    from string import ascii_lowercase
-    alphabet = ascii_lowercase + ''
-    idx = alphabet.find(letter)
-    if idx == -1:           #not found
-        print("error;" , letter, "is not in the alphabet")
-    return idx
+
 
 
 
