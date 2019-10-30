@@ -36,13 +36,6 @@ def encryptMessage():
     cipherText = scramble2Encrypt(msg)
     print("The encrypted message is:", cipherText)
 
-#write a stripeSpaces(text) function here
-
-#write a caesarEncrypt(plaintext, shift)
-#write a caesarDecrypt(cipherText, shift)
-
-
-
 
 
 
