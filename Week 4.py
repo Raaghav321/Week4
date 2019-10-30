@@ -141,19 +141,9 @@ print(indexToLetter(10))
 
 from crypto import *
 
-print(scramble2Encrypt("Poker Face...Pp.pp.p..poker face"))
+print(scramble2Encrypt("Poker Face...Pp.pp.p..poker face"));
 
-print(scramble2Decrypt()
-
-
-
-
-
-
-
-
-
-
+print(scramble2Decrypt());
 
 
 
@@ -166,6 +156,22 @@ print(chr(104));
 print(chr(97+13));
 
 print(str(12548))
+
+
+#Write a strip space function here
+
+def StripSpace(text):
+    return text.replace("","")
+
+print(StripSpace("Happy Birthday"))
+
+
+#write a stripeSpaces(text) function here
+
+#write a caesarEncrypt(plaintext, shift)
+#write a caesarDecrypt(cipherText, shift)
+
+
 
 
 
