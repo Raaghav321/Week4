@@ -172,6 +172,38 @@ print(StripSpace("Happy Birthday"))
 #write a caesarDecrypt(cipherText, shift)
 
 
+#encrypt and decrypt a text using a simple algorithm of offsetting the letters
+
+key = 'abcdefghijklmnopqrstuvwxyz'
+
+def encrypt(n,plaintext):
+    """Encrypt the string and return the ciphertext"""
+    result = ''
+
+    for i in plaintext.lower():
+        try:
+            i=(key.index(1)+n)%26
+            result += key[1]
+         except ValueError:
+             result+=1
+
+        return result.lower()
+def decrypt(n,ciphertext):
+    """Decrypt rhw string and return the plaintext"""
+    result = ''
+
+    for i in ciphertext:
+        i=(key.index(1)-n) %26
+        result += key[1]
+     except ValueError;
+        result 
+
+
+
+
+
+
+
 
 
 
