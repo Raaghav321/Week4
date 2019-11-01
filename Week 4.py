@@ -90,9 +90,7 @@ def littlelamb():
     firstChar = str[0]
     print(str.center(i))
 
-print(str.center(4))
 
-str = "kush"
 
 #Character Function
 
@@ -100,32 +98,27 @@ print(ord('8'))
 print(chr(98-14))
 
 
-str = "pizza"
-print(str.rjust(4))
+star = "pizza"
+print(star.rjust(4))
 
-print(str.rjust(8))
+print(star.rjust(8))
 
-str = "ree"
-print(str.upper())
+star = "ree"
+print(star.upper())
 
-print(str.upper())
+print(star.upper())
 
-str = "BLAH"
-print(str.lower())
+star = "BLAH"
+print(star.lower())
 
-print(str.lower())
+print(star.lower())
 
-str = "lkagh"
-print(str.index(a))
-
-print(str.index(9))
 
 #Character Functions
 
 print(ord('B'))
 print(chr(98-14))
 
-print(str(12564))
 
 #Testing Functions From Mapper.py
 from mapper import *
@@ -139,23 +132,24 @@ print(indexToLetter(10))
 
 
 
-from crypto import *
+from Crypto import *
 
-print(scramble2Encrypt("Poker Face...Pp.pp.p..poker face"));
+print(scramble2Encrypt("Poker Face, Ppppp, poker face"))
+print(scramble2Decrypt("oe ae pp,pkrfcPkrFc,Ppp oe ae"))
 
-print(scramble2Decrypt());
+
 
 
 
 #Character Functions
 
-print(ord('5'));
+print(ord('5'))
 
-print(chr(104));
+print(chr(104))
 
-print(chr(97+13));
+print(chr(97+13))
 
-print(str(12548))
+print(str(12572))
 
 
 #Write a strip space function here
@@ -174,29 +168,44 @@ print(StripSpace("Happy Birthday"))
 
 #encrypt and decrypt a text using a simple algorithm of offsetting the letters
 
-key = 'abcdefghijklmnopqrstuvwxyz'
+key = "abcdefghijklmnopqrstuvwxyz"
 
 def encrypt(n,plaintext):
     """Encrypt the string and return the ciphertext"""
-    result = ''
+    result = ""
 
     for i in plaintext.lower():
         try:
-            i=(key.index(1)+n)%26
-            result += key[1]
-         except ValueError:
-             result+=1
+            result=(key.index(1)+n) % 26
+            result += key[i]
+        except ValueError:
+             result +=1
 
-        return result.lower()
+    return result.lower()
 def decrypt(n,ciphertext):
     """Decrypt rhw string and return the plaintext"""
     result = ''
 
     for i in ciphertext:
-        i=(key.index(1)-n) %26
-        result += key[1]
-     except ValueError;
-        result 
+      try:
+          i = (key.index(1) - n) % 26
+          result += key[i]
+      except ValueError:
+            result += 1
+
+    return result
+
+text = "I am coding Python on SoloLearn"
+offset = 5
+
+encrypt = encrypt(offset, text)
+print('Encrypt:', encrypt)
+
+decrypt = decrypt(offset,encrypt)
+print('decrypt', decrypt)
+
+
+
 
 
 
